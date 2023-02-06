@@ -3,12 +3,18 @@
 # File name: honors.py  
 # Program Description:  
 
-goodToGo = True
-myNo = False
-zStop = "ZZZ"
-dList = 3.5
-hList = 3.25
-
+#
+#    Initial variable definitions and assigned values
+#
+goodToGo = True       #  While loop control - pgm runs when True
+myNo = False          #  While loop control - pgm terminates when assigned
+                      #                       to goodToGo vaiable
+zStop = "ZZZ"         #  User entry to teminate program
+dList = 3.5           #  minimum value for Deans list
+hList = 3.25          #  minimum value for Honor Roll
+#
+#  Introductory comments and instructions
+#
 print("This program will test if a student\'s GPA qualifies that student for ")
 print(" either the Dean\'s List or the Honor Roll.")
 print("To end the program type ZZZ when asked for the student\'s last name.")
