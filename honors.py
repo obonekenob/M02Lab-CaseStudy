@@ -22,7 +22,7 @@ while goodToGo:
         firstName = str(input("Enter the student\'s first name. "))
         GPA = float(input("Enter the student\'s GPA: "))
         if GPA >= dList:
-            print("The student has made the Dean\'s List. ")
+            print("This student has made the Dean\'s List. ")
         elif GPA >= hList:
             print("This student has made the Honor Roll.")
         else:
