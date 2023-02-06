@@ -4,10 +4,10 @@
 # Program Description:  
 
 goodToGo = True
-Bzstop = "ZZZ"
-Lzstop = "zzz"
-Dlist = 3.5
-Hlist = 3.25
+myNo = False
+zStop = "ZZZ"
+dList = 3.5
+hList = 3.25
 
 print("This program will test if a student\'s GPA qualifies that student for ")
 print(" either the Dean\'s List or the Honor Roll.")
@@ -15,17 +15,15 @@ print("To end the program type ZZZ when asked for the student\'s last name.")
 
 while goodToGo:
     lastName = str(input("Enter the last name. "))
-    if lastName == Bzstop or lastName == Lzstop:
+    if lastName.upper() == zStop:
         print("Thank you for using this program. ")
-        break
+        goodToGo = myNo 
     else:
-        firstName = str(input("Enter the first name. "))
-        GPA = float(input("Enter the GPA: "))
-#        if GPA >= 3.5:
-        if GPA >= Dlist:
-            print("Congratulations. You are on the Dean\'s List. ")
-#        elif GPA >= 3.25:
-        elif GPA >= Hlist:
-            print("Congratulations. You made the Honor Roll.")
+        firstName = str(input("Enter the student\'s first name. "))
+        GPA = float(input("Enter the student\'s GPA: "))
+        if GPA >= dList:
+            print("The student has made the Dean\'s List. ")
+        elif GPA >= hList:
+            print("This student has made the Honor Roll.")
         else:
-            print("I am sorry. You do not qualify for either list.")
+            print("This student does not qualify for either list.")
