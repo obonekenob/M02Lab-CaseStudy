@@ -1,0 +1,52 @@
+
+This file contains the putput of a sample run of the program honors.py.
+
+-------------------------Begin the run.--------------------------------
+
+
+This program will test if a student's GPA qualifies that student for 
+ either the Dean's List or the Honor Roll.
+To end the program type ZZZ when asked for the student's last name.
+
+Enter the last name. Trainer    
+Enter the student's first name. Physed
+Enter the student's GPA: 3.5
+
+This student has made the Dean's List. 
+
+Enter the last name. Track
+Enter the student's first name. Coach
+Enter the student's GPA: 3.25
+
+This student has made the Honor Roll.
+
+Enter the last name. Gordan     
+Enter the student's first name. Flash
+Enter the student's GPA: 3.24
+
+This student does not qualify for either list.
+
+Enter the last name. Kent
+Enter the student's first name. Clark
+Enter the student's GPA: 3.49
+
+This student has made the Honor Roll.
+
+Enter the last name. Jones
+Enter the student's first name. Ralph
+Enter the student's GPA: 4.0
+
+This student has made the Dean's List.
+
+Enter the last name. Porgy
+Enter the student's first name. Georgy
+Enter the student's GPA: 3.0
+
+This student does not qualify for either list.
+
+Enter the last name. ZZZ
+
+Thank you for using this program.
+
+
+--------------------------End of Run.------------------------
